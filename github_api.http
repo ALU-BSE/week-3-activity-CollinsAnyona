@@ -1,0 +1,15 @@
+### Get user info for GitHub's Octocat
+GET https://api.github.com/users/octocat
+
+###
+
+### List Octocat's Repositories
+GET https://api.github.com/users/octocat/repos
+
+###
+
+### Get a specific repository (with Accept header)
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
